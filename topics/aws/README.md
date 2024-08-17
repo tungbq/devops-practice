@@ -1,9 +1,7 @@
-# k8s practice place
+# AWS practice place
 
 k8s practice place with various samples
 
 ## Practice content💥
 
-| ID  | Content             | URL                                           | Status |
-| :-- | :------------------ | :-------------------------------------------- | :----- |
-| 01  | Create your own VPC | [create-your-own-vpc](./create-your-own-vpc/) | TO-DO  |
+- Practice 10+ hands-on example in [aws-lab-with-terraform](https://github.com/tungbq/aws-lab-with-terraform)
