@@ -2,7 +2,7 @@
 
 A place to learn and practice DevOps in the hands-on way
 <br>
-This is the **second** of my DevOps trio repositories: [devops-basics](https://github.com/tungbq/devops-basics) <-> [devops-practice](https://github.com/tungbq/devops-practice) <-> [devops-project](https://github.com/tungbq/devops-project), designed to help you learn, practice, and apply DevOps.
+This is the **second** of my DevOps trio repositories: [devops-basics](https://github.com/tungbq/devops-basics) ↔️ [devops-practice](https://github.com/tungbq/devops-practice) ↔️ [devops-project](https://github.com/tungbq/devops-project), designed to help you learn, practice, and apply DevOps.
 
 ## DevOps topics 🔥
 
