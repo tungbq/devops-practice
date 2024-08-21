@@ -31,9 +31,23 @@
 ```bash
 cd cd topics/terraform/terraform-practice01
 
+# Create terraform.tfvars file
+cp terraform.tfvars.sample terraform.tfvars
+## Change the password to your own choice :)
+
 terraform init
 
 terraform plan -out="tfplan.out"
 
 terraform apply "tfplan.out"
+```
+
+## Verify
+
+- Check on Azure portal: https://portal.azure.com/
+- Get PublicIP and try SSH to the new VM
+
+```bash
+ssh azureuser@public_IP
+# Login with password defined in your `terraform.tfvars` file
 ```
