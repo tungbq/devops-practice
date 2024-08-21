@@ -1,0 +1,10 @@
+- name: Check Docker service
+  systemd:
+    name: docker
+    state: started
+    enabled: true
+
+- name: Ensure application containers are running
+  docker_container:
+    name: app_container
+    state: started

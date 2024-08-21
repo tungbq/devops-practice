@@ -1,0 +1,5 @@
+- name: Include common tasks
+  include_tasks: "{{ item }}"
+  with_items:
+    - common.yml
+    - install_docker.yml
