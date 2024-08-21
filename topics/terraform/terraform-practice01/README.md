@@ -56,3 +56,9 @@ terraform apply "tfplan.out"
 ssh azureuser@public_IP
 # Login with password defined in your `terraform.tfvars` file
 ```
+
+## Cleanup
+To avoid the unexpected cost, be sure to cleanup your resource if not used anymore
+```bash
+terraform destroy
+```

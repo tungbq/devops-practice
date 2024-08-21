@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  jenkins:
+    image: jenkins:lts
+    container_name: jenkins_demo
+    ports:
+      # You can replace by your own port
+      - "8020:8080"
+      - "50000:50000"
+    volumes:
+      - jenkins_data:/var/jenkins_home
+    environment:
+      - JAVA_OPTS=-Djenkins.install.runSetupWizard=false
+
+volumes:
+  jenkins_data:
