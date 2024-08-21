@@ -47,6 +47,12 @@ class Animal {
     }
 }
 
+class Cat extends Animal {
+    def catch_mouse() {
+        println("Catching the mouses...")
+    }
+}
+
 class Dog extends Animal {
     def speak() {
         println("$name barks")
@@ -55,6 +61,9 @@ class Dog extends Animal {
 
 def myDog = new Dog(name: 'Rex')
 myDog.speak()
+
+def myCat = new Cat(name: "ABC")
+myCat.catch_mouse()
 
 // 6. Exception Handling
 def divide = { a, b ->
