@@ -24,6 +24,31 @@ We cover a wide range of practice for various DevOps topics in our content libra
         <td>AWS</td>
         <td><a href="./topics/aws/">aws</a></td>
     </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=ansible" /></td>
+        <td>Ansible</td>
+        <td><a href="./topics/ansible/">ansible</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=terraform" /></td>
+        <td>Terraform</td>
+        <td><a href="./topics/terraform/">terraform</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=py" /></td>
+        <td>Python</td>
+        <td><a href="./topics/python/">python</a></td>
+    </tr>
+    <tr>
+        <td><img width="32" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Groovy-logo.svg/1920px-Groovy-logo.svg.png"></td>
+        <td>Groovy</td>
+        <td><a href="./topics/groovy/">groovy</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=bash" /></td>
+        <td>Shell</td>
+        <td><a href="./topics/shell/">shell</a></td>
+    </tr>
 </table>
 
 - And **more upcoming topics...⏩** you can star/follow this repository to get more up-to-dated content ⭐
