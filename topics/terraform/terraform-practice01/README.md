@@ -3,6 +3,11 @@
 - Doc: TODO
 - Setup with Azure: https://github.com/TheDevOpsHub/TerraformHub/blob/main/Azure/docs/terraform-azure-setup.md
 
+## What?
+
+At the end of this practice, you will be able to create srouce group as below:
+![result_01](./assets/result_01.png)
+
 ## Structure
 
 ```bash
