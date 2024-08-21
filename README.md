@@ -66,4 +66,4 @@ We cover a wide range of practice for various DevOps topics in our content libra
     </tr>
 </table>
 
-- And **more upcoming topics...⏩** you can star/follow this repository to get more up-to-dated content ⭐
+And **more upcoming topics...⏩** you can star/follow this repository to get more up-to-dated content ⭐
