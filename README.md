@@ -25,6 +25,11 @@ We cover a wide range of practice for various DevOps topics in our content libra
         <td><a href="./topics/aws/">aws</a></td>
     </tr>
     <tr>
+        <td><img height="28" src="https://avatars.githubusercontent.com/u/13629408" /></td>
+        <td>K8s</td>
+        <td><a href="./topics/k8s/">k8s</a></td>
+    </tr>
+    <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=ansible" /></td>
         <td>Ansible</td>
         <td><a href="./topics/ansible/">ansible</a></td>
@@ -48,6 +53,21 @@ We cover a wide range of practice for various DevOps topics in our content libra
         <td><img height="28" src="https://skillicons.dev/icons?i=bash" /></td>
         <td>Shell</td>
         <td><a href="./topics/shell/">shell</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=prometheus" /></td>
+        <td>Monitoring</td>
+        <td><a href="./topics/monitoring/">monitoring</a></td>
+    </tr>
+    <tr>
+        <td><img width="32" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"></td>
+        <td>MySQL</td>
+        <td><a href="./topics/mysql/">mysql</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=jenkins" /></td>
+        <td>Jenkins</td>
+        <td><a href="./topics/jenkins/">jenkins</a></td>
     </tr>
 </table>
 
