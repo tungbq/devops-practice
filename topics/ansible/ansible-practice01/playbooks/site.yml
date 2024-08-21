@@ -1,0 +1,17 @@
+- name: Deploy Docker on target host
+  hosts: target
+  become: true
+  roles:
+    - docker
+
+- name: Start application containers
+  hosts: target
+  become: true
+  tasks:
+    - include_tasks: start_containers.yml
+
+- name: Verify setup
+  hosts: target
+  become: true
+  tasks:
+    - include_tasks: verify.yml
