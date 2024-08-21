@@ -1,6 +1,7 @@
 ## Terraform practice01
 
 - Doc: TODO
+- Setup with Azure: https://github.com/TheDevOpsHub/TerraformHub/blob/main/Azure/docs/terraform-azure-setup.md
 
 ## Structure
 
@@ -28,9 +29,11 @@
 ## Run
 
 ```bash
+cd cd topics/terraform/terraform-practice01
+
 terraform init
 
-terraform plan
+terraform plan -out="tfplan.out"
 
-terraform apply
+terraform apply "tfplan.out"
 ```

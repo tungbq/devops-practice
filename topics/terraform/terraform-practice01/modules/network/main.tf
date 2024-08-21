@@ -1,8 +1,13 @@
-module "vnet" {
-  source = "./vnet"
-
-  resource_group_name = var.resource_group_name
+resource "azurerm_virtual_network" "main" {
+  name                = "terraform-vnet"
+  address_space       = var.vnet_address_space
   location            = var.location
-  vnet_address_space  = var.vnet_address_space
-  subnet_address_prefix = var.subnet_address_prefix
+  resource_group_name = var.resource_group_name
+}
+
+resource "azurerm_subnet" "main" {
+  name                 = "terraform-subnet"
+  resource_group_name  = var.resource_group_name
+  virtual_network_name = azurerm_virtual_network.main.name
+  address_prefixes     = [var.subnet_address_prefix]
 }
