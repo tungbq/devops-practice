@@ -39,3 +39,6 @@ terraform.rc
 *.out
 
 .terraform.lock.hcl
+
+# Redis
+**/redis/**/data

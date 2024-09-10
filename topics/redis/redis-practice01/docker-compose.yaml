@@ -1,0 +1,64 @@
+version: '3'
+
+services:
+  redis-node-1:
+    image: redis:alpine
+    command: ["redis-server", "--port", "6379", "--cluster-enabled", "yes", "--cluster-config-file", "/data/nodes.conf", "--cluster-node-timeout", "5000", "--appendonly", "yes"]
+    volumes:
+      - ./data/redis-node-1:/data
+    networks:
+      redis-cluster:
+        ipv4_address: 172.18.0.2
+
+  redis-node-2:
+    image: redis:alpine
+    command: ["redis-server", "--port", "6379", "--cluster-enabled", "yes", "--cluster-config-file", "/data/nodes.conf", "--cluster-node-timeout", "5000", "--appendonly", "yes"]
+    volumes:
+      - ./data/redis-node-2:/data
+    networks:
+      redis-cluster:
+        ipv4_address: 172.18.0.3
+
+  redis-node-3:
+    image: redis:alpine
+    command: ["redis-server", "--port", "6379", "--cluster-enabled", "yes", "--cluster-config-file", "/data/nodes.conf", "--cluster-node-timeout", "5000", "--appendonly", "yes"]
+    volumes:
+      - ./data/redis-node-3:/data
+    networks:
+      redis-cluster:
+        ipv4_address: 172.18.0.4
+
+  redis-node-4:
+    image: redis:alpine
+    command: ["redis-server", "--port", "6379", "--cluster-enabled", "yes", "--cluster-config-file", "/data/nodes.conf", "--cluster-node-timeout", "5000", "--appendonly", "yes"]
+    volumes:
+      - ./data/redis-node-4:/data
+    networks:
+      redis-cluster:
+        ipv4_address: 172.18.0.5
+
+
+  redis-node-5:
+    image: redis:alpine
+    command: ["redis-server", "--port", "6379", "--cluster-enabled", "yes", "--cluster-config-file", "/data/nodes.conf", "--cluster-node-timeout", "5000", "--appendonly", "yes"]
+    volumes:
+      - ./data/redis-node-5:/data
+    networks:
+      redis-cluster:
+        ipv4_address: 172.18.0.6
+
+
+  redis-node-6:
+    image: redis:alpine
+    command: ["redis-server", "--port", "6379", "--cluster-enabled", "yes", "--cluster-config-file", "/data/nodes.conf", "--cluster-node-timeout", "5000", "--appendonly", "yes"]
+    volumes:
+      - ./data/redis-node-6:/data
+    networks:
+      redis-cluster:
+        ipv4_address: 172.18.0.7
+networks:
+  redis-cluster:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.18.0.0/16

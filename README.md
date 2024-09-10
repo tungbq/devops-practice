@@ -64,6 +64,11 @@ We cover a wide range of practice for various DevOps topics in our content libra
         <td>Jenkins</td>
         <td><a href="./topics/jenkins/">jenkins</a></td>
     </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=redis" /></td>
+        <td>Redis</td>
+        <td><a href="./topics/redis/">redis</a></td>
+    </tr>
 </table>
 
 And **more upcoming topics...⏩** you can star/follow this repository to get more up-to-dated content ⭐
