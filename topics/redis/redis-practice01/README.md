@@ -1,4 +1,7 @@
 # Create and access the Redis cluster
+
+This practice sample helps you learn how to set up and access a redis cluster with docker compose
+
 ## Steps to Create the Redis Cluster
 
 - Bring up the Redis nodes:
